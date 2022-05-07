@@ -12,7 +12,7 @@ namespace HW2Lesson4
             else if (b < 36) Console.WriteLine("[15-35]");
             else if (b < 51) Console.WriteLine("[36-50]");
             else if (b < 101) Console.WriteLine("[50-100]");
-            else if (b != 0 - 100) Console.WriteLine("Error Input Number");
+            else Console.WriteLine("Error Input Number");
             Console.ReadKey();
         }
     }
